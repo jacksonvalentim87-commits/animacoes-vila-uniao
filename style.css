@@ -13,7 +13,7 @@ body {
 }
 h1 {
     text-align: center;
-    color: #4CAF50;
+    color: #FF0000; /* Vermelho */
 }
 .anim-list {
     display: flex;
@@ -31,7 +31,7 @@ h1 {
     border: 1px solid #333;
 }
 button {
-    background: #4CAF50;
+    background: #FF0000; /* Vermelho */
     border: none;
     padding: 8px 12px;
     color: white;
@@ -39,5 +39,5 @@ button {
     cursor: pointer;
 }
 button:hover {
-    background: #45a049;
+    background: #cc0000; /* Vermelho mais escuro */
 }
