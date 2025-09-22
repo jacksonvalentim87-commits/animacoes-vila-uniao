@@ -9,10 +9,12 @@ function copyCommand(cmd){
 }
 function showRifle(){
   document.querySelectorAll('.anim-item').forEach(it=>{
-    if(it.getAttribute('data-rifle')==='1') it.style.display='flex'; else it.style.display='none';
+    it.style.display = it.getAttribute('data-rifle')==='1' ? 'flex':'none';
   });
 }
-function showAll(){ document.querySelectorAll('.anim-item').forEach(it=>it.style.display='flex'); }
+function showAll(){
+  document.querySelectorAll('.anim-item').forEach(it=>it.style.display='flex');
+}
 function doSearch(){
   const q=document.getElementById('search').value.toLowerCase();
   document.querySelectorAll('.anim-item').forEach(it=>{
